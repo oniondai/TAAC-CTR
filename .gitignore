@@ -1,0 +1,31 @@
+# ===== 训练/推理产物 (本地生成, 不入库) =====
+# 数据
+data_official.parquet
+2026/data/
+2026/Tenrec_dataset/
+
+# 模型权重 + 词表
+*.pth
+*.pt
+*.pkl
+2026/models/
+
+# Bundle (平台上传包, 一打一个)
+2026/bundle/
+2026/logs/
+
+# 训练过程产生的 vocab/info
+2026/vocab.json
+2026/info.json
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
